@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width, initial-scale=1.0">
+  <title>Videojuegos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Este es el encabezado-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Videojuegos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Incio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Esta es la portada-->
+    <div class="cover d-flex d-flex justify-content-center d-flex align-items-center flex-column">
+      <h1>Videojuegos</h1>
+      <p>¿Estás listo para jugar?</p>
+      <button type="button" class="btn btn-outline-light">Conoce más</button>
+    </div>
+  </header>
+  <!--Este es el cuerpo de la página-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <!--Clse row-->
+      <div class="row justify-content-center">
+        <!--tarjeta-->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!-- Se usa la clase col-->
+          <div class="card">
+            <div title="Mortal Kombat 11 (Latam) Xb1" class="cover cover-small"
+              style="background-image: url(img/mortal-kombat-11-xbox-one.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Mortal Kombat 11 (Latam) Xb1</h5>
+              <p class="card-text">Este es un videojuego</p>
+              <div class="card-footer text-muted">Lo más buscado entre gamers</div>
+            </div>
+          </div>
+        </div>
+        <!--tarjeta-->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!-- Se usa la clase col-->
+          <div class="card">
+            <div title="Injustice 2" class="cover cover-small"
+              style="background-image: url(img/injustice-2-legendary-edition-xbox-one.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Injustice 2</h5>
+              <p class="card-text">Este es un videojuego</p>
+              <div class="card-footer text-muted">Lo más buscado entre gamers</div>
+            </div>
+          </div>
+        </div>
+        <!--tarjeta-->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!-- Se usa la clase col-->
+          <div class="card">
+            <div title="Spiderman Game Of The Year" class="cover cover-small"
+              style="background-image: url(img/Spiderman\ Game\ Of\ The\ Year.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Spiderman Game Of The Year</h5>
+              <p class="card-text">Este es un videojuego</p>
+              <div class="card-footer text-muted">Lo más buscado entre gamers</div>
+            </div>
+          </div>
+        </div>
+        <!--tarjeta-->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!-- Se usa la clase col-->
+          <div class="card">
+            <div title="The Last Of Us Part II Ps4" class="cover cover-small"
+              style="background-image: url(img/The\ Last\ Of\ Us\ Part\ II\ Ps4.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">The Last Of Us Part II Ps4</h5>
+              <p class="card-text">Este es un videojuego</p>
+              <div class="card-footer text-muted">Lo más buscado entre gamers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Formulario-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-ig-5">
+          <img id=" img4" src="img/buscar.svg" alt="Buscador">
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>Los mejores videojuegos a tu alcance.</h3>
+          <p>Busca tu tienda más cercana.</p>
+          <a href="#">Ir al mapa...</a>
+        </div>
+      </div>
+      <form action="">
+        <label for="email">Correo electrónico:</label>
+        <div class="d-flex">
+          <div class="from-group flex-fill mr-z">
+            <input class="form-control" type="email" id="email">
+          </div>
+          <button type="submit" class="btn btn-outline-dark">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!--Mis roductos-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="product-stripe">
+        <div class="stripe-container">
+          <!--producto-->
+          <div class="card">
+            <div title="Dark Souls Remastered Ps4" class="cover cover-small"
+              style="background-image: url(img/Dark\ Souls\ Remastered\ Ps4.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Dark Souls Remastered Ps4</h5>
+              <span class="badge  badge-danger">$599.00</span>
+            </div>
+          </div>
+          <!--producto-->
+          <div class="card">
+            <div title="Batman-Arkham-Knight-ps4" class="cover cover-small"
+              style="background-image: url(img/batman-arkham-knight-ps4.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Batman-Arkham-Knight-ps4</h5>
+              <span class="badge  badge-danger">$399.99</span>
+            </div>
+          </div>
+          <!--producto-->
+          <div class="card">
+            <div title="Super Smash Bros Ultimate Nsw" class="cover cover-small"
+              style="background-image: url(img/Super\ Smash\ Bros\ Ultimate\ Nsw.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Super Smash Bros Ultimate Nsw</h5>
+              <span class="badge  badge-danger">$1,399.00</span>
+            </div>
+          </div>
+          <!--producto-->
+          <div class="card">
+            <div title="Minecraft" class="cover cover-small"
+              style="background-image: url(img/minecraft-starter-collection.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Minecraft</h5>
+              <span class="badge  badge-danger">$749.00</span>
+            </div>
+          </div>
+          <!--producto-->
+          <div class="card">
+            <div title="Gran Turismo Sport 6 Gh" class="cover cover-small"
+              style="background-image: url(img/gran-turismo-sport.webp);">
+            </div>
+            <div class="card-body">
+              <h5 class="card-tittle">Gran Turismo Sport 6 Gh</h5>
+              <span class="badge  badge-danger">$400.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mt-5 mb-5">
+      <h4>¡Te esperamos!</h4>
+      <p>Anaheim, CA 92802, Estados Unidos</p>
+      <div class="responsive-iframe">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27156550.243181694!2d-154.83303669999995!3d33.81209180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland!5e0!3m2!1ses-419!2smx!4v1686846752003!5m2!1ses-419!2smx"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1 href=" #" role="button" target="_blank">
+          <i class="fab fa-twitter"></i></a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1 href=" #" role="button" target="_blank">
+          <i class="fab fa-google"></i></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1 href=" #" role="button" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1 href=" #" role="button" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      &copy; 2023 Copyright:
+      <a class="text-white" href="#"> </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+
+</html>
